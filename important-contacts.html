@@ -4,9 +4,10 @@
 <head>
   <title>Важные контакты</title>
   <meta charset="UTF-8">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="css/fonts.min.css">
   <link rel="stylesheet" href="css/style.min.css?ver=0.100&_v=20241217081043">
-  <link rel="stylesheet" href="css/fonts.css">
-  <link rel="stylesheet" href="css/style.css">
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -69,13 +70,23 @@
             </button>
             <a href="#" class="header__favorite favorite-link">
               <span class="icon icon-favorite">
-                <img src="img/icons/wish-icon.svg" alt="">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 22">
+                  <path
+                    d="M22 7.99228C22 13.8096 12 20 12 20C12 20 2 13.8096 2 7.99228C2 0.0938401 12 0.200501 12 7.1519C12 0.200501 22 0.304486 22 7.99228Z"
+                    stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" fill="none" />
+                </svg>
               </span>
               <span class="favorite-link__text">Избранное</span>
             </a>
             <button id="headerSearch" class="header__search search-link">
               <span class="icon icon-search">
-                <img src="img/icons/search-icon.svg" alt="">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M4.17068 16.0182C7.22718 19.3979 12.3776 19.5978 15.6746 16.4645C18.9715 13.3312 19.1665 8.05136 16.11 4.67157C13.0535 1.29179 7.90304 1.09196 4.60611 4.22523C1.30915 7.3585 1.11421 12.6384 4.17068 16.0182Z"
+                    stroke="currentColor" stroke-width="2.2" />
+                  <path d="M16.6738 16.5417L20.0006 20.0001" stroke="currentColor" stroke-width="2.2"
+                    stroke-linecap="round" />
+                </svg>
               </span>
               <span class="icon icon-search-close">
                 <svg class="svg-icon">
@@ -396,7 +407,7 @@
       <div class="main-banner__box">
         <div class="main-banner__body">
           <div class="main-banner__cover">
-            <img src="img/banners/photo.jpg" alt="">
+            <img src="img/banners/photo.jpg" alt="Горы изображение">
           </div>
           <div class="main-banner__content">
             <h1 data-gsap="FadeInUp" class="main-banner__title title title--h1 imp-cont__title">Важные контакты</h1>
